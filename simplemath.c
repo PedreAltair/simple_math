@@ -1,10 +1,11 @@
-/** \file simplemath.c
- *  \brief Definition of the functions
- *  \author Alessio Pedretti
- */
+/** \file simple_math.c
+	\brief definition of the functions 
+	\author Paolo Gastaldo
+  
+*/
 
 #include "simplemath.h"
 
 float mean(int a, int b) {
-    return (a+b)/2;
+	return (a+b)/2;
 }
