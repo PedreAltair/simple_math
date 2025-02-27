@@ -1,6 +1,6 @@
-/** \file simple_math.c
-	\brief definition of the functions 
-	\author Paolo Gastaldo
+/** \file simplemath.c
+	\brief Definition of the functions 
+	\author Alessio Pedretti
   
 */
 
@@ -8,4 +8,11 @@
 
 float mean(int a, int b) {
 	return (a+b)/2;
+}
+
+int max(int a, int b) {
+	if (a > b) {
+		return a;
+	}
+	return b;
 }
